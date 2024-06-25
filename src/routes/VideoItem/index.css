@@ -1,0 +1,30 @@
+.video-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .video-item {
+    height: 30vh !important;
+    width: inherit !important;
+  }
+}
+
+.video-details {
+  padding: 10px;
+}
+
+.views-timeline-container {
+  display: flex;
+  align-items: center;
+}
+
+.emotion-btns-container {
+  display: flex;
+}
+
+.profile-details-container {
+  display: flex;
+  align-items: center;
+}

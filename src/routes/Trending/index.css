@@ -1,0 +1,30 @@
+.page-heading {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  height: 80px;
+}
+
+.section-icon {
+  height: 50px;
+  width: 50px;
+  color: red;
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.menu-videos-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .menu-videos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+}
